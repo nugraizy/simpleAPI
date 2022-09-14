@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "ESNext",
+		"allowJs": true,
+		"checkJs": false,
+		"outDir": "lib",
+		"strict": false,
+		"skipLibCheck": true,
+		"noImplicitThis": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"moduleResolution": "node"
+	},
+	"include": ["./src/*", "src/connection/connection.ts"],
+	"exclude": ["node_modules"],
+	"ts-node": {
+		"esm": true,
+		"experimentalSpecifierResolution": "node"
+	}
+}
